@@ -71,13 +71,13 @@ namespace SimpleEmailHarvester
 
 
             //IWebDriver driver2;
-            var chromeDriverService = EdgeDriverService.CreateDefaultService();
-            chromeDriverService.HideCommandPromptWindow = true;
+            var EdgeDriverService2 = EdgeDriverService.CreateDefaultService();
+            EdgeDriverService2.HideCommandPromptWindow = true;
             var options = new EdgeOptions();
             options.AddArgument("--whitelisted-ips=''");
             //options.UseChromium = true;
 
-            driver2 = new EdgeDriver(chromeDriverService, options);
+            driver2 = new EdgeDriver(EdgeDriverService2, options);
         }
 
         public void scanGoogleForUrls(string query, ListBox listBox)

@@ -23,8 +23,8 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
-    <PackageReference Include="Selenium.WebDriver" Version="4.19.0" />
-    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="123.0.2420.65" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.24.0" />
+    <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="127.0.2651.105" />
   </ItemGroup>
 
   <ItemGroup>
