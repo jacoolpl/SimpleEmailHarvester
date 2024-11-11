@@ -1,4 +1,4 @@
-SimpleTurboEmail Harvester needs APIkey <br>
+SimpleEmailHarvester needs APIkey <br>
 https://developers.google.com/custom-search/v1/overview?hl=pl <br>
 https://developers.google.com/custom-search/v1/introduction?hl=pl <br>
 
