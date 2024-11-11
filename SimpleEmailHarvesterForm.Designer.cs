@@ -37,7 +37,6 @@
             emailsListBox = new ListBox();
             button1 = new Button();
             button2 = new Button();
-            button3 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -115,22 +114,11 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // button3
-            // 
-            button3.Location = new Point(81, 456);
-            button3.Name = "button3";
-            button3.Size = new Size(108, 25);
-            button3.TabIndex = 6;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
             // SimpleEmailHarvesterForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(804, 489);
-            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panel1);
@@ -156,6 +144,5 @@
         private Button button1;
         private ListBox URLsListBox;
         private Button button2;
-        private Button button3;
     }
 }
