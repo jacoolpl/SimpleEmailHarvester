@@ -1,8 +1,8 @@
-SimpleTurboEmail Harvester needs APIkey
-https://developers.google.com/custom-search/v1/overview?hl=pl
-https://developers.google.com/custom-search/v1/introduction?hl=pl
+SimpleTurboEmail Harvester needs APIkey <br>
+https://developers.google.com/custom-search/v1/overview?hl=pl <br>
+https://developers.google.com/custom-search/v1/introduction?hl=pl <br>
 
-
+<code>
 Program needs file "appsettings.json"" and in it:
 {
   "AppConfig": {
@@ -10,7 +10,7 @@ Program needs file "appsettings.json"" and in it:
     "searchEngineId": "YourSearchEngineId"
   }
 }
-
+</code>
 
 
 Commercial version TurboEmailHarvester on the website: https://turboemailharvester.com <br>
